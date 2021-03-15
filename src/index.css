@@ -1,0 +1,106 @@
+
+.drumBody {
+  text-align: center;
+  background-color: #283149;
+}
+
+.drumH1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+.drumFooter {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.drumW {
+ background-image: url("./images/drumMachine/crash.png");
+}
+
+.drumA {
+  background-image: url("./images/drumMachine/kick.png");
+}
+
+.drumS {
+  background-image: url("./images/drumMachine/snare.png");
+}
+
+.drumD {
+  background-image: url("./images/drumMachine/tom1.png");
+}
+
+.drumJ {
+  background-image: url("./images/drumMachine/tom2.png");
+}
+
+.drumK {
+  background-image: url("./images/drumMachine/tom3.png");
+}
+
+.drumL {
+  background-image: url("./images/drumMachine/tom4.png");
+}
+
+.white-font{
+  color: white;
+}
+
+.drumSet {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.drumPressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.drumRed {
+  color: red;
+}
+
+.drum  {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.drumBtn {
+  display: "inline-block";
+}
+
+label.drumSpeed{
+  color: white;
+  font-size: 3rem;
+  display: block;
+}
+
+input.drumSpeed {
+  display: block;
+  color:green;
+  width: 6rem;
+  height: 2rem;
+  margin: .5rem auto;
+  text-align: center;
+  font-weight: 900;
+}
