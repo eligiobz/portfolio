@@ -1,4 +1,33 @@
+/****************** DOCUMENT ********************************/
 
+body {
+  background-color: darkslateblue;
+}
+
+.mainTitle {
+  color: white;
+  margin: 2rem auto;
+  font-weight: 900;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.projectCombo{
+  margin-left: auto;
+  margin-right: 2rem;
+  
+  width: 10rem;
+}
+
+/****************** DOCUMENT ********************************/
+
+/********************************* API *********************************/
+
+/*** TODO ***/
+
+/********************************* API *********************************/
+
+/********************************** DRUMS *******************************/
 .drumBody {
   text-align: center;
   background-color: #283149;
@@ -6,19 +35,18 @@
 
 .drumH1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: #dbedf3;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
-
+  text-shadow: 3px 0 #da0463;
 }
 
 .drumFooter {
-  color: #DBEDF3;
+  color: #dbedf3;
   font-family: sans-serif;
 }
 
 .drumW {
- background-image: url("./images/drumMachine/crash.png");
+  background-image: url("./images/drumMachine/crash.png");
 }
 
 .drumA {
@@ -45,7 +73,7 @@
   background-image: url("./images/drumMachine/tom4.png");
 }
 
-.white-font{
+.white-font {
   color: white;
 }
 
@@ -59,7 +87,7 @@
 }
 
 .drumPressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 3px 4px 0 #dbedf3;
   opacity: 0.5;
 }
 
@@ -67,15 +95,15 @@
   color: red;
 }
 
-.drum  {
+.drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 10px solid #404b69;
   font-size: 5rem;
-  font-family: 'Arvo', cursive;
+  font-family: "Arvo", cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
   border-radius: 15px;
   display: inline-block;
   width: 150px;
@@ -89,7 +117,7 @@
   display: "inline-block";
 }
 
-label.drumSpeed{
+label.drumSpeed {
   color: white;
   font-size: 3rem;
   display: block;
@@ -97,10 +125,164 @@ label.drumSpeed{
 
 input.drumSpeed {
   display: block;
-  color:green;
+  color: green;
   width: 6rem;
   height: 2rem;
-  margin: .5rem auto;
+  margin: 0.5rem auto;
   text-align: center;
   font-weight: 900;
 }
+/********************************** DRUMS *******************************/
+
+/*************************** LOGOS ***********************/
+/* Infinity Logo */
+#infinity {
+  margin: 3rem auto;
+  position: relative;
+  width: 212px;
+  height: 100px;
+  box-sizing: content-box;
+}
+
+#infinity:before,
+#infinity:after {
+  content: "";
+  box-sizing: content-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  border: 20px solid skyblue;
+  border-radius: 50px 50px 0 50px;
+  transform: rotate(-45deg);
+}
+
+#infinity:after {
+  left: auto;
+  right: 0;
+  border-radius: 50px 50px 50px 0;
+  transform: rotate(45deg);
+}
+
+#heart {
+  margin: 3rem auto;
+  position: relative;
+  width: 212px;
+  height: 100px;
+  box-sizing: content-box;
+}
+
+#heart:before,
+#heart:after {
+  content: "";
+  width: 70px;
+  height: 115px;
+  position: absolute;
+  background: red;
+  left: 70px;
+  top: 0;
+  -webkit-border-radius: 50px 50px 0 0;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+#heart:after {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+#pacman {
+  width: 0;
+  height: 0;
+  border-right: 70px solid transparent;
+  border-top: 70px solid #ffde00;
+  border-left: 70px solid #ffde00;
+  border-bottom: 70px solid #ffde00;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  margin: 3rem auto;
+  box-sizing: content-box;
+}
+
+#badgeribbon {
+  position: relative;
+  background: #08fb09;
+  height: 100px;
+  width: 100px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  padding: 2px;
+  text-align: center;
+  margin: 3rem auto;
+  box-sizing: content-box;
+}
+#badgeribbon:before,
+#badgeribbon:after {
+  content: "";
+  position: absolute;
+  margin-top: 8px;
+  border-bottom: 70px solid #01fb02;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  top: 70px;
+  left: -5px;
+  -webkit-transform: rotate(-140deg);
+  -moz-transform: rotate(-140deg);
+  -ms-transform: rotate(-140deg);
+  -o-transform: rotate(-140deg);
+}
+#badgeribbon:after {
+  left: auto;
+  right: -5px;
+  -webkit-transform: rotate(140deg);
+  -moz-transform: rotate(140deg);
+  -ms-transform: rotate(140deg);
+  -o-transform: rotate(140deg);
+}
+
+#ship {
+  margin: 3rem auto;
+  position: relative;
+  width: 200px;
+  border-width: 50px 28px 0;
+  border-style: solid;
+  border-color: #ccddef transparent;
+  font-weight: bold;
+  box-sizing: content-box;
+}
+#ship:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -85px;
+  left: -15px;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent #bbcdef;
+}
+
+/******************* FIN LOGOS  *****************************************/
